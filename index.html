@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма для заполнения</title>
+</head>
+<body>
+    <header>
+        <article>Форма для заполнения данных</article>
+        <p>Заполните ваши данные и отправьте их на сайт.</p>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Данные о пользователе</legend>
+                <label>
+                    Ваше имя
+                    <input type="text" name="name" placeholder="Иван">
+                </label>
+                <br>
+                <label>
+                    Ваша фамилия
+                    <input type="text" name="surname" placeholder="Иванов">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Почта и телефон пользователя</legend>
+                <label>
+                    Е-mail 
+                    <input type="text" name="e-mail" placeholder="a1234@mail.ru">
+                </label>
+                <br>
+                <label>
+                    Номер телефона
+                    <input type="number" name="phone" placeholder="Номер телефона">
+                </label>
+                <h3>Выберите город для доставки</h3>
+                <div>
+                <label class="count">
+                    Москва
+                    <input type="radio" name="delivery" value="Москва">
+                </label>
+                <br>
+                <label class="count">
+                    Санкт-Петербург
+                    <input type="radio" name="delivery" value="Санкт-Петербург">
+                </label>
+                <br>
+                <label class="count">
+                    Томск
+                    <input type="radio" name="delivery" value="Томск">
+                </label>
+                </div>
+                <button>Отправить</button>
+
+            </fieldset>
+        </main>
+</body>
+</html>
+
+
+
+
